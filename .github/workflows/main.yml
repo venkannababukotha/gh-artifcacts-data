@@ -26,7 +26,7 @@ jobs:
         run: npm run test
   build:
     needs: test
-    runs-on: ubuntu-latst
+    runs-on: ubuntu-latest
     steps: 
       - name: Get code
         uses: actions/checkout@v4
